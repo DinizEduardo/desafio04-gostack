@@ -14,26 +14,94 @@ header {
   margin: 0px;
   padding: 0px;
   flex-direction: row;
-  padding: 15px 100px;
+  padding: 10px 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 header h2 {
-  /* display: inline-block;
-  vertical-align: middle; */
   color: #fff;
   font-weight: bold;
   width: auto;
-  font-family: Segoe UI;
 }
 
 header p {
-  /* display: inline-block;
-  vertical-align: middle; */
-  /* float: right; */
-  margin-top: 5px;
   color: #fff;
   font-weight: bold;
+}
+
+.postList {
+  display: flex;
+  justify-content: center;
+}
+
+.postItem {
+  background-color: #fff;
+  margin-top: 30px;
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0px 0px -5px #f2f2f2;
+  padding: 20px;
+}
+
+.profilePost {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.userInfo {
+  margin-left: 20px;
+}
+
+.userInfo h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+
+.userInfo p {
+  color: #bbb;
+  font-size: 13px;
+}
+
+.content {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.commentList {
+  margin-top: 20px;
+}
+
+.commentItem {
+  margin: 10px 0px;
+  flex: 1;
+  display: flex;
+}
+
+.commentItem img {
+  top: 0;
+}
+
+.commentItem p {
+  margin-left: 20px;
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.commentItem p a {
+  text-decoration: none;
+  color: #4e4e4e;
+  font-weight: 700;
 }
