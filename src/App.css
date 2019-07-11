@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Segoe UI;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #4a90e2;
+  flex: 1;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: row;
+  padding: 15px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h2 {
+  /* display: inline-block;
+  vertical-align: middle; */
+  color: #fff;
+  font-weight: bold;
+  width: auto;
+  font-family: Segoe UI;
+}
+
+header p {
+  /* display: inline-block;
+  vertical-align: middle; */
+  /* float: right; */
+  margin-top: 5px;
+  color: #fff;
+  font-weight: bold;
+}
