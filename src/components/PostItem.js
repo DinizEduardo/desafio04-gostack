@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 function PostItem({ data }) {
+  console.log(data);
   return (
     <div className="postItem">
       <div className="profilePost">
@@ -10,20 +11,27 @@ function PostItem({ data }) {
           <p>{data.date}</p>
         </div>
       </div>
-
       <div className="content">
         <p>{data.content}</p>
       </div>
 
       <div className="commentList">
-        <div className="commentItem">
-          <img src="https://i.pravatar.cc/150?img=11" className="avatar" />
-          <p>
-            <a href="#">Diego Fernandes </a>A Rocketseat está sempre em busca de
-            novos membros.
-          </p>
-        </div>
+        {data.comments.map(comment => (
+          <CommentItem key={comment.id} comment={comment} />
+        ))}
       </div>
+    </div>
+  );
+}
+
+function CommentItem({ comment }) {
+  return (
+    <div className="commentItem">
+      <img src={comment.author.avatar} className="avatar" />
+      <p>
+        <a href="#">{comment.author.name} </a>
+        {comment.content}
+      </p>
     </div>
   );
 }

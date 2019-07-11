@@ -11,7 +11,8 @@ class PostList extends Component {
           avatar: 'https://i.pravatar.cc/150?img=1'
         },
         date: '04 Jun 2019',
-        content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
+        content:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tempor purus sed pellentesque. Ut egestas porta leo, sed tristique leo gravida vel.',
         comments: [
           {
             id: 1,
@@ -19,7 +20,7 @@ class PostList extends Component {
               name: 'Julio da Silva',
               avatar: 'https://i.pravatar.cc/150?img=11'
             },
-            content: 'Acredito que esteja.'
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
           }
         ]
       },
@@ -30,7 +31,7 @@ class PostList extends Component {
           avatar: 'https://i.pravatar.cc/150?img=11'
         },
         date: '04 Jun 2019',
-        content: 'Meu deus será que isso está funcionando?',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         comments: [
           {
             id: 1,
@@ -38,7 +39,17 @@ class PostList extends Component {
               name: 'Moquidesia Toledo',
               avatar: 'https://i.pravatar.cc/150?img=1'
             },
-            content: 'Meu deus realmente está funcionando'
+            content:
+              'Morbi risus lacus, placerat ac tincidunt id, tempor quis felis. Aenean nec enim felis. Nulla quis mi eget risus pulvinar faucibus vel vitae felis'
+          },
+          {
+            id: 2,
+            author: {
+              name: 'Moquidesia Toledo',
+              avatar: 'https://i.pravatar.cc/150?img=1'
+            },
+            content:
+              'Duis euismod ullamcorper purus, a luctus lacus dignissim et. Ut pellentesque viverra nibh. Nulla non mauris est. Integer fermentum neque id nibh cursus,'
           }
         ]
       }
